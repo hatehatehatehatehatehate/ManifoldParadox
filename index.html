@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SneakerHunter</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/elastislide.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+	
+	<header>
+		<div class="menu-top">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-top" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="menu-top">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Free Shipping Over $50</a></li>
+							<li><a href="#">Articles</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="flag"><img src="img/flag.jpg" alt=""></span>English <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">France</a></li>
+									<li><a href="#">Russia</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">currecy: usd <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">currecy: eur</a></li>
+									<li><a href="#">currecy: rur</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Signup</a></li>
+							<li><a href="#" class="btn-red"><span class="glyphicon glyphicon-shopping-cart"></span>shopping cart</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div><!-- /.menu-top -->
+
+		<section class="menu-carousel">
+			<div id="carousel" class="carousel fade" data-ride="carousel">
+				<div class="main-menu">
+					<nav class="navbar navbar-inverse">
+						<div class="container">
+							<div class="main-menu-bg">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<a class="navbar-brand" href="#"><img src="img/logo.png" alt="SneakerHunter"><span>SneakerHunter</span></a>
+								</div>
+
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="main-menu">
+									<ul class="nav navbar-nav">
+										<li><a href="#">Shop</a></li>
+										<li><a href="#">Men</a></li>
+										<li><a href="#">Women</a></li>
+										<li><a href="#">Kids</a></li>
+										<li><a href="#">Sale</a></li>
+									</ul>
+
+									<div class="nav navbar-nav navbar-right">
+										<form class="navbar-form navbar-left" role="search" method="get" action="">
+											<div class="input-group">
+												<input type="text" class="form-control" placeholder="Search">
+												<span class="input-group-btn">
+													<button type="submit" class="btn btn-default" name="go"><i class="glyphicon glyphicon-search"></i></button>
+												</span>
+											</div>
+										</form>
+									</div>
+								</div><!-- /.navbar-collapse -->
+								<i class="search glyphicon glyphicon-search"></i>
+							</div><!-- /.main-menu-bg -->
+						</div><!-- /.container -->
+					</nav>
+				</div><!-- /.main-menu -->
+
+				<!-- Indicators -->
+				<div class="carousel-indicators-wrap">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+						<li data-target="#carousel" data-slide-to="2"></li>
+						<li data-target="#carousel" data-slide-to="3"></li>
+					</ol>
+				</div><!-- /.carousel-indicators-wrap -->
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<!-- <img src="img/slider.jpg" alt=""> -->
+						<div class="bgslide" style="background-image: url(img/courusel/1.jpg);"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Sneaker Hunter</h1>
+								<h3>Hunt for sneakers with us</h3>
+								<a href="#" class="btn-red">Shop Sneaker Hunter</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!-- <img src="img/slider.jpg" alt=""> -->
+						<div class="bgslide" style="background-image: url(img/courusel/2.jpg);"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Sneaker Hunter</h1>
+								<h3>Hunt for sneakers with us</h3>
+								<a href="#" class="btn-red">Shop Sneaker Hunter</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!-- <img src="img/slider.jpg" alt=""> -->
+						<div class="bgslide" style="background-image: url(img/courusel/3.jpg);"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Sneaker Hunter</h1>
+								<h3>Hunt for sneakers with us</h3>
+								<a href="#" class="btn-red">Shop Sneaker Hunter</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!-- <img src="img/slider.jpg" alt=""> -->
+						<div class="bgslide" style="background-image: url(img/courusel/4.jpg);"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Sneaker Hunter</h1>
+								<h3>Hunt for sneakers with us</h3>
+								<a href="#" class="btn-red">Shop Sneaker Hunter</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
+
+	</header>
+
+	<section class="main-slogan">
+		<div class="container">
+			<h1>Ты сникерхед? Хайбист? Скинхед? Артём? Тогда тебе к нам</h1>
+		</div>
+	</section>
+
+	<section class="main-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-md-push-3">
+					<div class="row">
+						<div class="content">
+							<h3>Товары по запросу</h3>
+							<div class="products-row clearfix">
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favorites">
+											<span class="glyphicon glyphicon-heart"></span>
+										</div><!-- /.product-favorites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods/1.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="#">Niek Dunk High 1985 x UNDERCOVER Gym Red</a>
+										</p>
+										<p class="product-desc">
+											Коллаборация Nike с японским дизайнером Джуном Такахаши
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €150.00
+											</p>
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div>
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-sale img-circle">
+											<span>Sale</span>
+										</div><!-- /.product-favorites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods/2.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="#">Nike Air Force 1 Low «Valentine’s Day» 2020</a>
+										</p>
+										<p class="product-desc">
+											Пара, приуроченная к Дню Святого Валентина 2020
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €190.00
+											</p>
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div>
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-favorites">
+											<span class="glyphicon glyphicon-heart"></span>
+										</div><!-- /.product-favorites -->
+										<div class="product-img">
+											<a href="#"><img src="img/goods/3.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div><!-- /.product-img -->
+										<p class="product-title">
+											<a href="#">Nike Air Jordan 1 Chicago</a>
+										</p>
+										<p class="product-desc">
+											Кожаный верх премиум-класса – это классический безукоризненный Чикаго
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €200.00
+											</p>
+											<a href="#" class="btn btn-default">add to cart</a>
+										</div><!-- /.product-buy -->
+									</div><!-- /.product -->
+								</div>
+							</div><!-- /.products-row -->
+							<h3>Рекомендуемые товары</h3>
+							<div class="products-row clearfix">
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-sale img-circle">
+											<span>Sale</span>
+										</div>
+										<div class="product-img">
+											<a href="#"><img src="img/goods/4.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div>
+										<p class="product-title">
+											<a href="#">PUMA AND NEED FOR SPEED CREATE HI OCTN SNEAKER</a>
+										</p>
+										<p class="product-desc">
+											Коллаборация игры Need for Speed Heat и бренда Puma
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €140.00
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div><!-- /.product -->
+								</div><!-- .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-img">
+											<a href="#"><img src="img/goods/5.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div>
+										<p class="product-title">
+											<a href="#">Puma SLIPSTREAM LO THE NEVERWORN TRAINERS</a>
+										</p>
+										<p class="product-desc">
+											Кеды вдохновлены ретро-моделями, но переосмысленны на современный лад 
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €120.00
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div><!-- /.product -->
+								</div><!-- .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-img">
+											<a href="#"><img src="img/goods/6.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div>
+										<p class="product-title">
+											<a href="#">Puma SUEDE VTG TRAINERS</a>
+										</p>
+										<p class="product-desc">
+											Культовые кеды, оказавшие большое влияние на футбольную культуру
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €130.00
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div><!-- /.product -->
+								</div><!-- .col-sm-4 -->
+							</div><!-- .products-row -->
+							<div class="banner-row clearfix">
+								<div class="col-sm-4">
+									<a href=""><img src="img/banners in/1.jpg"></a>
+								</div>
+								<div class="col-sm-4">
+									<a href=""><img src="img/banners in/2.jpg"></a>
+								</div>
+								<div class="col-sm-4">
+									<a href=""><img src="img/content-banner3.jpg"></a>
+								</div>
+							</div><!-- .banner-row -->
+							<h3>Последние поступления</h3>
+							<div class="products-row clearfix">
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-sale img-circle">
+											<span>Sale</span>
+										</div>
+										<div class="product-img">
+											<a href="#"><img src="img/goods/7.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div>
+										<p class="product-title">
+											<a href="#">adidas Originals Superstar</a>
+										</p>
+										<p class="product-desc">
+											Кроссовки, созданные для баскетбола и ставшие легендой уличной культуры
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €100.00
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div><!-- /.product -->
+								</div><!-- .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-img">
+											<a href="#"><img src="img/goods/8.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div>
+										<p class="product-title">
+											<a href="#">Air Jordan 6 Retro DMP</a>
+										</p>
+										<p class="product-desc">
+											Обновлённая версия Air Jordan 6 содержит новые технологичные элементы
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €190.00
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div><!-- /.product -->
+								</div><!-- .col-sm-4 -->
+								<div class="col-sm-4">
+									<div class="product">
+										<div class="product-img">
+											<a href="#"><img src="img/goods/9.jpg" alt="CREAM JANE JEANS DRESS"></a>
+										</div>
+										<p class="product-title">
+											<a href="#">AIR JORDAN 1 SATIN “BANNED”</a>
+										</p>
+										<p class="product-desc">
+											Специальная атласная вариация легендароной модели <br> Air Jordan 1
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €180.00
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div><!-- /.product -->
+								</div><!-- .col-sm-4 -->
+							</div><!-- .products-row -->
+						</div> <!-- /.content -->
+					</div>
+				</div>
+				<div class="col-md-3 col-md-pull-9">
+					<div class="sidebar">
+						<div class="row">
+							<div class="col-xs-6 col-md-12">
+								<div class="widget">
+									<h3>Популярные категории</h3>
+									<ul>
+										<li><a href="#">Lifestyle</a></li>
+										<li><a href="#">Running</a></li>
+										<li><a href="#">Basketball</a></li>
+										<li><a href="#">Football</a></li>
+										<li><a href="#">Training & Gym</a></li>
+										<li><a href="#">Skateboarding</a></li>
+										<li><a href="#">Tennis</a></li>
+										<li><a href="#">Walking</a></li>
+										<li class="more"><a href="#">Show More</a></li>
+									</ul>
+								</div><!-- .widget -->
+							</div>
+							<div class="col-xs-6 col-md-12">
+								<div class="widget">
+									<h3>Популярные бренды</h3>
+									<ul>
+										<li><a href="#">Nike</a></li>
+										<li><a href="#">Jordan</a></li>
+										<li><a href="#">Adidas</a></li>
+										<li><a href="#">Puma</a></li>
+										<li><a href="#">New Balance</a></li>
+										<li><a href="#">Reebok</a></li>
+										<li><a href="#">Vans</a></li>
+										<li><a href="#">Salamon</a></li>
+										<li class="more"><a href="#">Show More</a></li>
+									</ul>
+								</div><!-- .widget -->
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12 col-xs-6 text-center">
+								<div id="carousel-sidebar" class="carousel fade" data-ride="carousel">
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<img src="img/sidebar1/1.jpg" alt="">
+											<div class="sidebar-carousel-caption">
+												<div>
+													<h4>Nike Air Max 90</h4>
+													<p>Впервые Nike представила свою кампанию «Kiss My Airs», разработанную Collins, во время празднования Дня Air Max 2017.</p>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<img src="img/sidebar1/2.jpg" alt="">
+											<div class="sidebar-carousel-caption">
+												<div>
+													<h4>New Balance 998</h4>
+													<p>Вдохновленный современным дизайнерским движением середины века 1950-х и 1960-х годов, каждый силуэт отличается чистой, нейтральной цветовой палитрой</p>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<img src="img/sidebar1/3.jpg" alt="">
+											<div class="sidebar-carousel-caption">
+												<div>
+													<h4>PUMA IGNITE</h4>
+													<p>Совершенно новые кроссовки PUMA IGNITE, прочные и гибкие, предназначенные для максимальной передачи энергии. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-sidebar" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel-sidebar" data-slide-to="1"></li>
+										<li data-target="#carousel-sidebar" data-slide-to="2"></li>
+									</ol>
+								</div><!-- #carousel-sidebar -->
+							</div>
+							<div class="col-md-12 col-xs-6 text-center">
+								<div class="banner">
+									<img src="img/sidebar2/1.jpg" alt="">
+									<h3>introducing</h3>
+									<h2>Air Jordan 1</h2>
+									<h3>Retro High OG “Chicago”</h3>
+									<a href="#" class="btn-red">shop now</a>
+								</div>
+							</div>
+						</div>				
+						<div class="about">
+							<h3>О магазине</h3>
+							<p>Наш магазин предоставляет только оригинальную продукцию от ведущих брендов в сфере обуви. У нас вы всегда можете найти как новинки, так и модели ставшие классикой. Если вы охотитесь за кроссовками делайте это вместе с нами.</p>
+						</div>
+					</div> <!-- /.sidebar -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="bottom-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Подпишитесь на рассылку</h3>
+					<h4>Получайте скидки, купоны и эксклюзивные предложения</h4>
+				</div>
+				<div class="col-md-8">
+					<form class="form-inline">
+						<div class="row">
+							<div class="form-group col-sm-4">
+								<input type="text" name="name" class="form-control" placeholder="your full name">
+							</div>
+							<div class="form-group col-sm-4">
+								<input type="email" name="email" class="form-control" placeholder="your email address">
+							</div>
+							<div class="form-group col-sm-4">
+								<button type="submit" class="btn btn-default">Подписаться</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="bottom-slider">
+		<div class="container">
+			<ul id="elastislide" class="elastislide-list">
+				<li><a href="#"><img src="img/brands/1.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/2.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/3.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/4.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/5.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/1.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/2.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/3.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/4.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/5.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/1.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/2.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/3.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/4.png" alt="partner1" /></a></li>
+				<li><a href="#"><img src="img/brands/5.png" alt="partner1" /></a></li>
+			</ul>
+		</div>
+	</div><!-- /.bottom-slider -->
+
+	<footer>
+		<div class="footer-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<h5>Помощь &amp; Инфо</h5>
+								<ul>
+									<li><a href="#">Доставка</a></li>
+									<li><a href="#">Возврат</a></li>
+									<li><a href="#">Связь с нами</a></li>
+									<li><a href="#">Отслеживайте свой заказ</a></li>
+									<li><a href="#">A - Я Бренды</a></li>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<h5>Продаваемые бренды</h5>
+								<ul>
+									<li><a href="#">Nike</a></li>
+									<li><a href="#">Adidas</a></li>
+									<li><a href="#">Puma</a></li>
+									<li><a href="#">Jordan</a></li>
+									<li><a href="#">New Balance</a></li>
+									<li><a href="#">Salamon</a></li>
+									<li><a href="#">Vans</a></li>
+								</ul>
+							</div>
+							<div class="clearfix visible-xs-block visible-sm-block"></div>
+							<div class="col-md-3 col-xs-6">
+								<h5>Наша компания</h5>
+								<ul>
+									<li><a href="#">О нас</a></li>
+									<li><a href="#">Наш магазин</a></li>
+									<li><a href="#">Правила и условия</a></li>
+									<li><a href="#">Политика конфиденциальности</a></li>
+									<li><a href="#">Cookies</a></li>
+									<li><a href="#">Найти нас</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h5>Социальные сети</h5>
+						<div class="social-icons">
+							<a href="#"><img src="img/fb.jpg" alt=""></a>
+							<a href="#"><img src="img/tw.jpg" alt=""></a>
+							<a href="#"><img src="img/fl.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- /.footer-menu -->
+		<div class="footer-copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p>&copy; 2023 Sneaker Store. All Rights Reserved.</p>
+					</div>
+					<div class="col-md-8 text-right pay">
+						<a href="#"><img src="img/pay1.jpg" alt=""></a>
+						<a href="#"><img src="img/pay3.jpg" alt=""></a>
+						<a href="#"><img src="img/pay4.jpg" alt=""></a>
+						<a href="#"><img src="img/pay6.jpg" alt=""></a>
+						<a href="#"><img src="img/pay7.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div><!-- /.footer-copyright -->
+	</footer>
+
+	
+	<script src="js/modernizr.custom.17475.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.elastislide.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
